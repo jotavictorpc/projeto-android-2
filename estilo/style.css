@@ -1,2 +1,71 @@
 @charset "UTF-8";
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+:root {
+    --cor0: #55DF75;
+    --cor1: #11D940;
+    --cor2: #0DA631;
+    --cor3: #07591A;
+    --cor4: #1D5C2C;
+    --fontetitulo: 'Libre Bodoni', serif;
+    --fontetexto:  Arial, Helvetica, sans-serif;
+    --fontesub: 'Patrick Hand', cursive;
+}
+
+
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor3));
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+header > p {
+    padding-bottom: 40px;
+}
+
+nav {
+    background-color: var(--cor3);
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+body {
+    background-color:var(--cor0);
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+    background-color: white;
+    padding: 10px;
+}
+
+main p {
+    text-align: justify;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+main h2 {
+    background-image: linear-gradient(to right, var(--cor1), var(--cor0));
+ }
+
+ footer {
+     background-color: var(--cor4);
+     text-align: center;
+     padding: 10px;
+     color: white;
+ }
