@@ -24,10 +24,7 @@ header {
     background-image: linear-gradient(to bottom, var(--cor1), var(--cor3));
     display: block;
     text-align: center;
-    padding-top: 40px;
-    padding-bottom: 10px;
-    padding-left: 11px;
-    padding-right: 11px;
+    padding: 40px 11px 10px 11px;
     max-width: 100%;
     min-width: 430px;
 }
