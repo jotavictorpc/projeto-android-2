@@ -63,6 +63,7 @@ body h3 {
 
 main {
     max-width: 1020px;
+    min-width: 800px;
     margin: auto;
     background-color: white;
     padding: 10px;
