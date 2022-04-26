@@ -127,13 +127,14 @@ div.video > iframe {
 }
 
  footer {
-     background-color: var(--cor4);
-     text-align: center;
-     padding: 10px;
-     color: white;
-     padding-left: 11px;
-     padding-right: 11px;
-     width: 100vw;
+    background-color: var(--cor4);
+    text-align: center;
+    padding: 10px;
+    color: white;
+    padding-left: 11px;
+    padding-right: 11px;
+    max-width: 100%;
+    min-width: 430px;
  }
 
  ul{
