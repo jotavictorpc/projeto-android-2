@@ -134,6 +134,7 @@ div.video > iframe {
      padding-left: 11px;
      padding-right: 11px;
      max-width: 100%;
+     min-width: 430px;
  }
 
  ul{
