@@ -126,10 +126,13 @@ div.video > iframe {
  }
 
  ul{
-     background-color: var(--cor3);
-     border-radius: 5px;
-     border-radius: 0px 0px 5px 5px;
-     color: white;
-     line-height: 1.3em;
+    background-color: var(--cor3);
+    border-radius: 5px;
+    border-radius: 0px 0px 5px 5px;
+    color: white;
+    line-height: 1.3em;
+    list-style: inside;
+    padding: 10px;
+    columns: 2;
  }
 
