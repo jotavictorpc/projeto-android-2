@@ -133,7 +133,7 @@ div.video > iframe {
      color: white;
      padding-left: 11px;
      padding-right: 11px;
-     width: 100%;
+     width: 100% 100%;
  }
 
  ul{
