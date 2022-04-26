@@ -97,6 +97,26 @@ main h2 {
     padding: 3px;
  }
 
+ .video{
+    background-color: var(--cor3); /* Estetica*/
+    margin: 0px -10px 30px -10px; /* Adapitável a cada espaço do video*/
+    padding-bottom: 50%;
+    position: relative; /* Todo video deve ter e o seletor*/
+}
+
+div.video > iframe {
+    position: absolute; /* Todo video deve ter esse seletor e essa configuração*/
+
+    top: 5%; /* De video para video, a conf*/
+
+    left: 5%; /* De video para video, a conf*/
+
+    width: 90%; /* De video para video, a conf*/
+
+    height: 90%; /* De video para video a conf*/
+
+}
+
  footer {
      background-color: var(--cor4);
      text-align: center;
