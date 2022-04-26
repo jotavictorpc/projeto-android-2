@@ -57,12 +57,12 @@ body h3 {
     font-family: var(--fontesub);
     background-color: var(--cor3);
     color: white;
-    border-radius: 3px 3px 0px 0px;
+    border-radius: 5px 5px 0px 0px;
     padding: 3px;
 }
 
 main {
-    max-width: 900px;
+    max-width: 810px;
     margin: auto;
     background-color: white;
     padding: 10px;
@@ -95,3 +95,12 @@ main h2 {
      padding: 10px;
      color: white;
  }
+
+ ul{
+     background-color: var(--cor3);
+     border-radius: 5px;
+     padding: 5px 5px 0px 0px;
+     color: white;
+     line-height: 1.3em;
+ }
+
