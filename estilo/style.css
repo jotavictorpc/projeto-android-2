@@ -26,7 +26,6 @@ header {
     text-align: center;
     padding-top: 40px;
     padding-bottom: 10px;
-    width: 100%;
 }
 
 header > h1 {
@@ -77,4 +76,14 @@ main {
     padding: 10px;
     max-width: 800px;
     min-width: 430px;
+}
+
+main p {
+    text-align: justify;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    font-family: var(--fontetexto);
+    line-height: 1.3em;
+    
 }
