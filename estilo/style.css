@@ -73,7 +73,7 @@ main {
     background-color: white;
     padding: 10px;
     max-width: 800px;
-    min-width: 400px;
+    min-width: 410px;
 }
 
 main p {
@@ -100,6 +100,7 @@ main h2 {
  .video{
     background-color: var(--cor3); /* Estetica*/
     margin: 0px -10px 30px -10px; /* Adapitável a cada espaço do video*/
+    padding: 20px; /* Adpitável a cada espaço do video*/
     padding-bottom: 50%;
     position: relative; /* Todo video deve ter e o seletor*/
 }
