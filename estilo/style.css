@@ -145,3 +145,8 @@ div.video > iframe {
     padding: 10px;
     columns: 2;
  }
+
+ main img#caraeandroid {
+    width: 50%;
+    
+ }
