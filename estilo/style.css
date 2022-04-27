@@ -77,10 +77,10 @@ main h3 {
 }
 
 main {
-    margin: auto;
+    margin: auto; /* Centralizar o texto (artigo) para quando for telas muito grande*/
     background-color: white;
     padding: 10px;
-    max-width: 1000px; /* Recomendável colocar essas medidas.*/
+    max-width: 1000px; /* Recomendável colocar essas medidas. O problema do cabeçalho e rodapé era essa medida, ao que tudo indica*/
     min-width: 300px; /* Recomendável colocar essas medidas.*/
     margin-bottom: 20px;
     border-bottom-right-radius: 10px;
