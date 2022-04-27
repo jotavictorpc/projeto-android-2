@@ -64,9 +64,8 @@ nav > a:hover {
     background-color: var(--cor2);
     color: white;
     border-radius: 3px;
+    transition: 1.5s;
 }
-
-
 
 main h3 {
     font-family: var(--fontesub);
@@ -107,6 +106,22 @@ main h2 {
     color: white;
     padding: 3px;
  }
+
+strong {
+    color: var(--cor3);
+    font-weight: bold;
+}
+
+main a {
+    text-decoration: underline;
+    color: black
+}
+
+main a:hover {
+    background-color: var(--cor1);
+    border-radius: 3px;
+    padding: 3px;
+}
 
  .video{
     background-color: var(--cor3); /* Estetica*/
